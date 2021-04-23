@@ -1,0 +1,27 @@
+{
+  "name": "student-database",
+  "version": "0.0.2",
+  "description": "Student database application written in JavaScript.",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChiaraDM/student-database.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "Node.js",
+    "Express.js",
+    "SQLite",
+    "Angular.js"
+  ],
+  "author": "Chiara De Matteis",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/ChiaraDM/student-database/issues"
+  },
+  "homepage": "https://github.com/ChiaraDM/student-database#readme"
+}
