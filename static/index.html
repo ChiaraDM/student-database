@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Student List</title>
-        <script src="index.js"></script>
+        <title>AngularJS First Application</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.0/angular.js"></script>
     </head>
-    <body onload="printStudents()">
-        <h2>Students</h2>
-        <div id="main"></div>
+    <body>
+        <h1>Sample Application</h1>
+        <div ng-app = "">
+            <p>Enter your Name: <input type="text" ng-model="name"></p>
+            <p>Enter your Age: <input type="text" ng-model="age"></p>
+            <p>Hello <span ng-bind="name"></span>!</p>
+            <p>You are <span ng-bind="age"></span> years old.</p>
+        </div>
     </body>
 </html>
